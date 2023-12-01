@@ -1,0 +1,25 @@
+.box{
+  /* position: relative; */
+  position: absolute;
+  transform-origin: bottom;
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+   transform-style: preserve-3d;
+   perspective: 500;
+}
+.img{
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+  top:0px;
+  backface-visibility: hidden;
+   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.rotation{
+  transform: rotateX(180deg);
+}
