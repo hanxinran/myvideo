@@ -19,6 +19,11 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.down{
+  width: 70px;
+  height: 60px;
+  margin-top: 100px;
+}
 
 .rotation{
   transform: rotateX(180deg);
