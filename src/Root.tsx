@@ -2,6 +2,7 @@ import {Composition} from 'remotion';
 import {HelloWorld, myCompSchema} from './HelloWorld';
 import {Logo, myCompSchema2} from './HelloWorld/Logo';
 import { Countdown } from './CountDown';
+import { Count } from './Count';
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -43,7 +44,7 @@ export const RemotionRoot: React.FC = () => {
 			/>
 			<Composition
 				id="countDown"
-				component={Countdown}
+				component={Count}
 				durationInFrames={200}
 				fps={30}
 				width={1920}

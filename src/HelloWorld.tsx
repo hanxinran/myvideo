@@ -54,7 +54,7 @@ export const HelloWorld: React.FC<z.infer<typeof myCompSchema>> = ({
 			extrapolateRight: 'clamp',
 		}
 	);
-
+	console.log(frame)
 	// A <AbsoluteFill> is just a absolutely positioned <div>!
 	return (
 		<AbsoluteFill style={{backgroundColor: 'white'}}>
